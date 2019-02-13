@@ -1,0 +1,30 @@
+.registrationForm {
+    position: fixed;
+    top:30%;
+    left:42%;
+    
+}
+.registrationForm{
+    width: 300px;
+    height:250px;
+    border-radius: 35px
+}
+
+.input {
+    width: 100%;
+    border-radius: 5px;
+    padding-left:5px
+}
+::placeholder {
+    text-align: center
+}
+
+.loginButton {
+    text-align: right;
+}
+
+@media screen and (max-width: 675px) {
+    .registrationForm {
+        float: none;
+    }
+}

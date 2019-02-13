@@ -1,0 +1,72 @@
+.toolbar {
+    /*sets the style of the entire tool bar*/
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background: black;
+    height: 56px;
+    z-index: 1
+}
+.toolbar_navigation {
+    /*sets the style of the the items on the navbar*/
+    display: flex;
+    height:100%;
+    align-items:center;
+    padding: 0 1rem;
+}
+
+.toolbar_logo {
+    /*sets the style of the logo of the toolbar*/
+    margin-left: 1rem;
+}
+.toolbar_logo a {
+    /*sets the style of the logo*/
+    color:white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.spacer {
+    /* adds spacing to the logo and the links */
+    flex: 1;
+}
+/*sets the style of the navigation items*/
+.toolbar_navigation_items ul {
+    
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.toolbar_navigation_items li{
+padding: 0 0.5rem;
+}
+.toolbar_navigation_items a {
+    color:white;
+    text-decoration: none;   
+}
+
+.toolbar_navigation_items a:hover,
+.toolbar_navigation_items a:active {
+    color:red
+}
+/* --end navigation items */
+
+@media (max-width: 768px) {
+    .toolbar_navigation_items {
+        display: none;
+        position:fixed
+    }
+}
+
+@media (min-width: 769px) {
+    .toolbar_toggleButton {
+        display: none
+    }
+
+    .toolbar_logo {
+        margin-left: 0;
+    }
+}

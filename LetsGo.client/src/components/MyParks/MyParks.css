@@ -1,0 +1,22 @@
+.HomeCards {
+    /*sets the style of the each home card*/
+    width:350px;
+    height:110%;
+    position: flex;
+    padding-top: 20px; 
+    padding-left: 10px
+
+}
+
+.listHome {
+    /*sets the style of the text areas of the home cards*/
+    max-height: 200px;
+    overflow-y: scroll
+
+}
+
+.homeCardImage {
+    /*sets the style of the image atop the home cards*/
+    max-width: 100%;
+    max-height: 150px
+}

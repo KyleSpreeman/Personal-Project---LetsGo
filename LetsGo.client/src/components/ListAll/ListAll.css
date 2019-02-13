@@ -1,0 +1,23 @@
+.listAllCards {
+    /*sets the style of the entire list card*/
+    width:400px;
+    height:110%;
+    position: flex;
+    padding-top: 20px;
+    padding-left: 25px
+}
+.card-footer {
+    /*sets the style of the card footer*/
+    text-align: left;
+}
+.listAll{
+    /*sets the style of the text area of the card body*/
+    height: 300px;
+    overflow-y: scroll;
+}
+
+
+.card-deck {
+    /*sets the style of the entire card deck on the home page*/
+    text-align: center;
+}
